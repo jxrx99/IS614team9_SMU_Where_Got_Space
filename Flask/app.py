@@ -12,7 +12,7 @@ db = SQLAlchemy(app)
 
 from models import Location, Sensor, Tables, Table_occupancy_data, Env_sensor_data, Occupancy_sensor_data
 
-@app.route('/smt203team2/getSensorReadings', methods = ['GET'])
+@app.route('/is614team9/getSensorReadings', methods = ['GET'])
 def get_sensor_readings():
   return "Hello World"
 
